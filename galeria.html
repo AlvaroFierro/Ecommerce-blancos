@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- Basico -->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Para celulares-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Marcas sitio -->
+    <title>Galeria</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="Alvaro Fierro">
+
+    <!-- Iconos -->
+    <link rel="icono" href="imagenes/logo-laps.png">
+    <!-- Adicional -->
+    <link rel="apple-touch-icon" href="imagenes/logo-laps.png"> 
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsivo CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    <!-- Comienzo de la barra superior -->
+    <div class="main-top">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<div class="custom-select-box">
+                        <select id="basic" class="selectpicker show-tick form-control" data-placeholder="$ MXN">
+							<option>$ MXN</option>
+							<option>$ USD</option>
+							<option>€ EUR</option>
+						</select>
+                    </div>
+                    <div class="right-phone-box">
+                        <p>Contáctanos- <a href="tel: +1234567890"> 12-3456-7890</a></p>
+                    </div>
+                    <div class="our-link">
+                        <ul>
+                            <li><a href="mi-cuenta.html"><i class="fa fa-user s_color"></i> Mi Cuenta</a></li>
+                            <li><a href="#localizanos"><i class="fas fa-location-arrow"></i> Localizanos</a></li>
+                            <li><a href="contacto.html"><i class="fas fa-headset"></i> Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<div class="login-box">
+						<select id="basic" class="selectpicker show-tick form-control" data-placeholder="Sign In">
+							<option>Registrate</option>
+							<option>Inicia sesión</option>
+						</select>
+					</div>
+                    <div class="text-slid-box">
+                        <div id="offer-box" class="carouselTicker">
+                            <ul class="offer-box">
+                                <li>
+                                    <i class="fab fa-opencart"></i> 20% de descuento en sábanas
+                                </li>
+                                <li>
+                                    <i class="fab fa-opencart"></i> 10% - 25% descuento en tu primer compra
+                                </li>
+                                <li>
+                                    <i class="fab fa-opencart"></i> 10% de descuento en edredones
+                                </li>
+                                <li>
+                                    <i class="fab fa-opencart"></i> 15% de descuento en almohadas
+                                </li>
+                             </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin de la barra superior -->
+
+    <!-- Comienzo página principal -->
+    <header class="main-header">
+        <!-- Comienzo navegación -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-default bootsnav">
+            <div class="container">
+                <!-- Encabezado navegación -->
+                <div class="navbar-header">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                </button>
+                    <a class="navbar-brand" href="index.html"><img src="imagenes/logo-laps.png" class="logo" alt=""></a>
+                </div>
+                <!-- Encabezado navegación -->
+
+                   <!-- Recolección de páginas -->
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
+                        <li class="nav-item active"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="acerca.html">Sobre nosotros</a></li>
+                        <li class="dropdown">
+                            <a href="compras.html" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">Compras</a>
+                            <ul class="dropdown-menu">
+								<li><a href="compras.html">Ver todos los productos</a></li>
+								<li><a href="productos-detallados.html">Productos a detalle</a></li>
+                                <li><a href="carrito.html">Carrito</a></li>
+                                <li><a href="pago.html">Revisión de Pago</a></li>
+                                <li><a href="mi-cuenta.html">Mi cuenta</a></li>
+                                <li><a href="lista-deseos.html">Lista de deseos</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="galleria.html">Galeria</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contacto.html">Contáctanos</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+
+                <!-- Comienzo del atributo de navegación -->
+                <div class="attr-nav">
+                    <ul>
+                        <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
+                        <li class="side-menu">
+							<a href="#">
+								<i class="fa fa-shopping-bag"></i>
+								<span class="badge">3</span>
+								<p>Carrito</p>
+							</a>
+						</li>
+                    </ul>
+                </div>
+                <!-- Fin del atributo de navegación -->
+            </div>
+            <!-- Inicio menú lateral -->
+            <div class="side">
+                <a href="#" class="close-side"><i class="fa fa-times"></i></a>
+                <li class="cart-box">
+                    <ul class="cart-list">
+                        <li>
+                            <a href="#" class="photo"><img src="imagenes/1.jpg" class="cart-thumb" alt="" /></a>
+                            <h6><a href="#">Producto 1 </a></h6>
+                            <p>1x - <span class="price">$179.99</span></p>
+                        </li>
+                        <li>
+                            <a href="#" class="photo"><img src="imagenes/2.jpg" class="cart-thumb" alt="" /></a>
+                            <h6><a href="#">Producto 2</a></h6>
+                            <p>1x - <span class="price">$259.99</span></p>
+                        </li>
+                        <li>
+                            <a href="#" class="photo"><img src="imagenes/3.jpg" class="cart-thumb" alt="" /></a>
+                            <h6><a href="#">Producto 3</a></h6>
+                            <p>1x - <span class="price">$339.99</span></p>
+                        </li>
+                        <li class="total">
+                            <a href="#" class="btn btn-default hvr-hover btn-cart">VER CARRITO</a>
+                            <span class="float-right"><strong>Total</strong>: $779.99</span>
+                        </li>
+                    </ul>
+                </li>
+            </div>
+            <!-- Fin Menú lateral -->
+        </nav>
+        <!--Fin Navegación -->
+    </header>
+    <!-- Fin superior -->
+
+    <!-- Comienzo de al barra de búsqueda -->
+    <div class="top-search">
+        <div class="container">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                <input type="text" class="form-control" placeholder="Buscar">
+                <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
+            </div>
+        </div>
+    </div>
+    <!-- Fin barra de búsqueda  -->
+
+    <!-- Comienzo  -->
+    <div class="products-box">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title-all text-center">
+                        <h1>Galeria de Productos</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet lacus enim.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="special-menu text-center">
+                        <div class="button-group filter-button-group">
+                            <button class="active" data-filter="*">Todos</button>
+                            <button data-filter=".bulbs">Edredonnes</button>
+                            <button data-filter=".fruits">Sábanas</button>
+							<button data-filter=".podded-vegetables">Colchas</button>
+							<button data-filter=".root-and-tuberous">Almohadas</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row special-list">
+                <div class="col-lg-3 col-md-6 special-grid bulbs">
+                    <div class="products-single fix">
+                        <div class="box-img-hover">
+                            <div class="type-lb">
+                                <p class="sale">EN VENTA</p>
+                            </div>
+                            <img src="imagenes/1.jpg" class="img-fluid" alt="Image">
+                            <div class="mask-icon">
+                                <ul>
+                                    <li><a href="compras.html" data-toggle="tooltip" data-placement="right" title="Ver"><i class="fas fa-eye"></i></a></li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 special-grid fruits">
+                    <div class="products-single fix">
+                        <div class="box-img-hover">
+                            <img src="imagenes/2.jpg" class="img-fluid" alt="Image">
+                            <div class="mask-icon">
+                                <ul>
+                                    <li><a href="compras.html" data-toggle="tooltip" data-placement="right" title="Ver"><i class="fas fa-eye"></i></a></li>
+                                    </ul>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 special-grid bulbs">
+                    <div class="products-single fix">
+                        <div class="box-img-hover">
+                            <img src="imagenes/3.jpg" class="img-fluid" alt="Image">
+                            <div class="mask-icon">
+                                <ul>
+                                    <li><a href="compras.html" data-toggle="tooltip" data-placement="right" title="Ver"><i class="fas fa-eye"></i></a></li>
+                                    </ul>                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 special-grid fruits">
+                    <div class="products-single fix">
+                        <div class="box-img-hover">                            
+                            <img src="imagenes/4.jpg" class="img-fluid" alt="Image">
+                            <div class="mask-icon">
+                                <ul>
+                                    <li><a href="compras.html" data-toggle="tooltip" data-placement="right" title="Ver"><i class="fas fa-eye"></i></a></li>
+                                    </ul>                                
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+				<div class="col-lg-3 col-md-6 special-grid bulbs">
+                    <div class="products-single fix">
+                        <div class="box-img-hover">
+                            <img src="imagenes/5.jpg" class="img-fluid" alt="Image">
+                            <div class="mask-icon">
+                                <ul>
+                                    <li><a href="compras.html" data-toggle="tooltip" data-placement="right" title="Ver"><i class="fas fa-eye"></i></a></li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 special-grid fruits">
+                    <div class="products-single fix">
+                        <div class="box-img-hover">                            
+                            <img src="imagenes/6.jpg" class="img-fluid" alt="Image">
+                            <div class="mask-icon">
+                                <ul>
+                                    <li><a href="compras.html" data-toggle="tooltip" data-placement="right" title="Ver"><i class="fas fa-eye"></i></a></li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 special-grid podded-vegetables">
+                    <div class="products-single fix">
+                        <div class="box-img-hover">
+                            <img src="imagenes/7.jpg" class="img-fluid" alt="Image">
+                            <div class="mask-icon">
+                                <ul>
+                                    <li><a href="compras.html" data-toggle="tooltip" data-placement="right" title="Ver"><i class="fas fa-eye"></i></a></li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 special-grid root-and-tuberous">
+                    <div class="products-single fix">
+                        <div class="box-img-hover">                            
+                            <img src="imagenes/8.jpg" class="img-fluid" alt="Image">
+                            <div class="mask-icon">
+                                <ul>
+                                    <li><a href="compras.html" data-toggle="tooltip" data-placement="right" title="Ver"><i class="fas fa-eye"></i></a></li>
+                                    </ul>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+				
+				<div class="col-lg-3 col-md-6 special-grid root-and-tuberous">
+                    <div class="products-single fix">
+                        <div class="box-img-hover">                            
+                            <img src="imagenes/9.jpg" class="img-fluid" alt="Image">
+                            <div class="mask-icon">
+                                <ul>
+                                    <li><a href="compras.html" data-toggle="tooltip" data-placement="right" title="Ver"><i class="fas fa-eye"></i></a></li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 special-grid podded-vegetables">
+                    <div class="products-single fix">
+                        <div class="box-img-hover">
+                            <img src="imagenes/10.jpg" class="img-fluid" alt="Image">
+                            <div class="mask-icon">
+                                <ul>
+                                    <li><a href="compras.html" data-toggle="tooltip" data-placement="right" title="Ver"><i class="fas fa-eye"></i></a></li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 special-grid root-and-tuberous">
+                    <div class="products-single fix">
+                        <div class="box-img-hover">                           
+                            <img src="imagenes/11.jpg" class="img-fluid" alt="Image">
+                            <div class="mask-icon">
+                                <ul>
+                                    <li><a href="compras.html" data-toggle="tooltip" data-placement="right" title="Ver"><i class="fas fa-eye"></i></a></li>
+                                    </ul>                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 special-grid podded-vegetables">
+                    <div class="products-single fix">
+                        <div class="box-img-hover">
+                            <img src="imagenes/13.jpg" class="img-fluid" alt="Image">
+                            <div class="mask-icon">
+                                <ul>
+                                    <li><a href="compras.html" data-toggle="tooltip" data-placement="right" title="Ver"><i class="fas fa-eye"></i></a></li>
+                                    </ul>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin Galeria  -->
+
+    <!-- Comienzo del Feed de Instagram  -->
+    <div class="instagram-box">
+        <div class="main-instagram owl-carousel owl-theme">
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="imagenes/1.jpg" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="imagenes/2.jpg" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="imagenes/3.jpg" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="imagenes/4.jpg" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="imagenes/5.jpg" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="imagenes/6.jpg" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="imagenes/7.jpg" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="imagenes/8.jpg" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="imagenes/9.jpg" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="imagenes/10.jpg" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin del Feed de Instagram  -->
+
+
+    <!-- Comienzo pie de página  -->
+    <footer>
+        <div class="footer-main">
+            <div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-md-12 col-sm-12">
+						<div class="footer-top-box">
+							<h3>Horario Laboral</h3>
+							<ul class="list-time">
+								<li>Lunes  -  Viernes : 08.00am a 05.00pm</li> <li>Sabados: 10.00am a 08.00pm</li> <li>Domingo: <span>Cerrado</span></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-12 col-sm-12">
+						<div class="footer-top-box">
+							<h3>Newsletter</h3>
+							<form class="newsletter-box">
+								<div class="form-group">
+									<input class="" type="email" name="Email" placeholder="Dirección de e-mail*" />
+									<i class="fa fa-envelope"></i>
+								</div>
+								<button class="btn hvr-hover" type="submit">Enviar</button>
+							</form>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-12 col-sm-12">
+						<div class="footer-top-box">
+							<h3>Redes Sociales</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							<ul>
+                                <li><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-google-plus" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-pinterest-p" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-whatsapp" aria-hidden="true"></i></a></li>
+                            </ul>
+						</div>
+					</div>
+				</div>
+				<hr>
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="footer-widget">
+                            <h4>Acerca de: LAPS</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p> 							
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="footer-link">
+                            <a name="localizanos" ></a>
+                            <h4>Información</h4>
+                            <ul>
+                                <li><a href="acerca.html">Acerca de nosotros</a></li>
+                                <li><a href="acerca.html">Servicio al Cliente</a></li>
+                                <li><a href="acerca.html">Mapa del sitio</a></li>
+                                <li><a href="acerca.html">Términos &amp; Condiciones</a></li>
+                                <li><a href="acerca.html">Política de Privacidad</a></li>
+                                <li><a href="acerca.html">Información sobre entregas</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="footer-link-contact">
+                            <h4>Contactanos</h4>
+                            <ul>
+                                <li>
+                                    <p><i class="fas fa-map-marker-alt"></i>Dirección: direccion <br>de la <br> empresa </p>
+                                </li>
+                                <li>
+                                    <p><i class="fas fa-phone-square"></i>Celular: <a href="tel: +1234567890">12-3456-7890</a></p>
+                                </li>
+                                <li>
+                                    <p><i class="fas fa-envelope"></i>Email: <a href="https://mail.google.com/mail/u/0/">contactinfo@gmail.com</a></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Fin pie de página  -->
+
+   <!-- Comienzo copyright  -->
+   <div class="footer-copyright">
+    <p class="footer-company">Todos los derechos reservados. &copy; 2020 <a href="#">LAPS</a> <br> Diseñado por: 
+        <a href="https://html.design/">Alvaro Fierro</a></p>
+</div>
+<!-- Fin copyright  -->
+
+    <a href="#" id="back-to-top" title="Volver al inicio" style="display: none;">&uarr;</a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/jquery.superslides.min.js"></script>
+    <script src="js/bootstrap-select.js"></script>
+    <script src="js/inewsticker.js"></script>
+    <script src="js/bootsnav.js."></script>
+    <script src="js/images-loded.min.js"></script>
+    <script src="js/isotope.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/baguetteBox.min.js"></script>
+    <script src="js/form-validator.min.js"></script>
+    <script src="js/contact-form-script.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
